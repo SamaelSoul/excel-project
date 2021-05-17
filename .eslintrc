@@ -13,6 +13,9 @@
         "object-curly-spacing": "off",
         "arrow-parens": "off",
         "no-undef": "off",
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
+        "operator-linebreak": "off",
+        "no-trailing-spaces": "off",
+        "semi": "off"
     }
 }
