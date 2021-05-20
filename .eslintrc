@@ -16,6 +16,7 @@
         "no-unused-vars": "off",
         "operator-linebreak": "off",
         "no-trailing-spaces": "off",
-        "semi": "off"
+        "semi": "off",
+        "max-len": "off"
     }
 }
