@@ -11,14 +11,21 @@ function createCell() {
 
 function createCol(col) {
   return `
-    <div class="column">${col}</div>
+    <div class="column" data-type="resizable">
+      ${col}
+      <div class="col-resize" data-resize="col"></div>
+    </div>
   `
 }
 
 function createRow(content, info = '') {
+  const resizer = info ? '<div class="row-size" data-resize="row"></div>' : '';
   return `
-    <div class="row">
-      <div class="row-info">${info}</div>
+    <div class="row" data-type="resizable">
+      <div class="row-info">
+        ${info}
+        ${resizer}
+      </div>
       <div class="row-data">${content}</div>
     </div>
   `
